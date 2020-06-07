@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/shaders/ColorPaletteLight.tres" type="Material" id=1]
+[ext_resource path="res://assets/pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia.png" type="Texture" id=2]
+[ext_resource path="res://assets/light.png" type="Texture" id=3]
+
+[node name="Scene" type="Node2D"]
+
+[node name="Image" type="Sprite" parent="."]
+material = ExtResource( 1 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Light" type="Light2D" parent="."]
+position = Vector2( 232, 62 )
+skew = 4.37114e-08
+texture = ExtResource( 3 )
+mode = 2

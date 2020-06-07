@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://src/shaders/ColorPaletteLight.shader" type="Shader" id=1]
+[ext_resource path="res://assets/pico-8_light.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/dark_mode = true
+shader_param/color_palette = ExtResource( 2 )
