@@ -2,7 +2,7 @@ shader_type canvas_item;
 
 // Godot color palette light shader
 // Author: Juan Colacelli
-// Website: https://juancolacelli.com
+// Website: https://poopbits.com
 // License: GNU GPLv3
 
 uniform sampler2D color_palette;
